@@ -3,6 +3,8 @@
  *
  * @author  Amitesh Kumar
  *
+ * It is pure javascript plugin used with jQuery and Bootstrap.
+ * 
  * Use case :
  * If we want to define do not disturb hours for an user then we can use this plugin to create the ui to select the hour range easily.
  * 
