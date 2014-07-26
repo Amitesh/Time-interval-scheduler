@@ -13,8 +13,8 @@
   <body>
     <section>
       <div class="container">
-        <h2>Time Schedule Widget <a href="#" class="btn btn-warning btn-link btn-mini offset1" data-toggle="collapse" data-target="#usage">How to use?</a></h2>
-        <div id="usage" class="alert alert-info collapse">
+        <h2>Time Schedule Widget <a id="hintBtn" href="#" class="btn btn-warning btn-link btn-mini offset1" data-toggle="collapse" data-target="#usage">How to use?</a></h2>
+        <div id="usage" class="alert alert-info hide">
           <strong>Usage</strong><br>
             We can select hours for all day by clicking or dragging the all days hour buttons. Also 
             we can individually select or unselect the hour interval from respective day.
@@ -41,6 +41,11 @@
         };
 
         $( document ).ready( function () {
+          //Toggle usage info
+          $('#hintBtn').click(function(){
+            $($(this).data('target')).slideToggle();
+          });
+
           //Initialize the hour selection widget
           $( '.time-schedule-widget' ).each( function () {
             new HourSelector( this, settings, { paramName : "hour_setting"} );
