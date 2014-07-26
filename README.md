@@ -4,6 +4,7 @@ A Javascript plugin to create time or hour schedules for a week.
 
 ## See it in action
 [Demo url](http://amitesh.github.io/Time-interval-scheduler "Checkout demo")
+[Example](https://github.com/Amitesh/Time-interval-scheduler/blob/master/time-interval-scheduler.html "Example page")
 
 ## Screenshots
 ![Hour Selector widget](https://raw.githubusercontent.com/Amitesh/Time-interval-scheduler/master/img/screenshot.jpg "Hour Selector widget")
