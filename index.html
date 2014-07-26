@@ -5,16 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Time-interval-scheduler by Amitesh</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link href="https://github.com/Amitesh/Time-interval-scheduler/raw/master/css/bootstrap-combined.2.0.4.min.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="https://github.com/Amitesh/Time-interval-scheduler/raw/master/css/style.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.rawgit.com/Amitesh/Time-interval-scheduler/master/css/bootstrap-combined.2.0.4.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
 
+    <link href="https://cdn.rawgit.com/Amitesh/Time-interval-scheduler/master/css/style.css" media="all" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    h1 {
+      font-size: 30px;
+      margin: 0;
+    }
+    a{
+      color:#39c;
+      font-weight: normal;
+      font-size: 13px;
+    }
+    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -37,7 +48,9 @@
           Time interval scheduler plugin
         </h1>
         <p>A Javascript plugin to create time or hour schedules for a week.</p>
-        <a id="hintBtn" href="#" class="btn btn-warning btn-link btn-mini offset1" data-toggle="collapse" data-target="#usage">How to use?</a>
+        <div class="text-right">
+          <a id="hintBtn" href="#" class="btn btn-link btn-mini" data-toggle="collapse" data-target="#usage">How to use?</a>
+        </div>
         <div>
           <div id="usage" class="alert alert-info hide">
             <strong>Usage</strong><br>
@@ -53,7 +66,7 @@
       </footer>
     </div>
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-      <script src="https://github.com/Amitesh/Time-interval-scheduler/raw/master/js/hour-selector-plugin.js"></script>
+      <script src="https://cdn.rawgit.com/Amitesh/Time-interval-scheduler/master/js/hour-selector-plugin.js"></script>
       
       <script type="text/javascript">
       // Sample Data to populate the widget
