@@ -56,7 +56,7 @@ var hs = new HourSelector( this, {}, { paramName : "hour_setting"} );
 * Get only selected values
 * Create custom styles or skins
 
-Feel free to request your feature.
+Feel free to request your feature and give feedback to improve it.
 
 ## License
 
