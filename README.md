@@ -54,6 +54,7 @@ var hs = new HourSelector( this, {}, { paramName : "hour_setting"} );
 ## Todo
 * Get the values in json format
 * Get only selected values
+* Create custom styles or skins
 
 Feel free to request your feature.
 
