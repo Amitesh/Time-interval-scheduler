@@ -1,15 +1,14 @@
 # Time interval scheduler plugin
-----
 
 A Javascript plugin to create time or hour schedules for a week.
 
 ### Dependencies
----
+
 * jQuery 1.7.1+
 * Bootstrap 2.0.4 css only
 
 ## Usage
----
+
 It is pure javascript plugin used with jQuery and Bootstrap.
 
 
@@ -50,6 +49,5 @@ var hs = new HourSelector( this, {}, { paramName : "hour_setting"} );
 Feel free to request your feature.
 
 ## License
----
 
 Distributed under the MIT license.
