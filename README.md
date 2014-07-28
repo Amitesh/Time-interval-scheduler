@@ -46,7 +46,7 @@ var hs = new HourSelector( this, selectedHours, {} );
 ```
 
 
-Provide custom parameter name for form element:
+Provide custom parameter name for form hidden inout element:
 ```javascript
 var hs = new HourSelector( this, {}, { paramName : "hour_setting"} ); 
 ```
